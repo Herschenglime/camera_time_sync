@@ -1,0 +1,3 @@
+[submodule "jetson-orin-gpio-patch"]
+	path = jetson-orin-gpio-patch
+	url = https://github.com/jetsonhacks/jetson-orin-gpio-patch
