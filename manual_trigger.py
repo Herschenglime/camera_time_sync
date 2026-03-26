@@ -40,7 +40,7 @@ def main() -> None:
     try:
         while True:
             key = get_single_keypress()
-            if key.lower() == "q":
+            if key.lower() == "q" or key == "\x03":  # q or Ctrl+C
                 break
             if key == " ":
                 pulse_trigger()
